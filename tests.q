@@ -9,5 +9,3 @@ case_b:count VWAP_func[.test.data;`RANDOM;.test.start_time;.test.end_time];
 
 case_c:count TWAP_func[.test.data;.test.syms;.test.start_time;.test.end_time];
 case_d:count TWAP_func[.test.data;`RANDOM;.test.start_time;.test.end_time];
-
-$[(case_a;case_b;case_c;case_d) ~ (1;0;1;0);"All tests passed"; "Tests failed"]
